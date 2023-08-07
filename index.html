@@ -6,14 +6,29 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
 </head>
+<style>
+    .boton-container {
+        padding: 5px;
+        background-color: green;
+        display: inline-block;
+    }
+
+    .boton-saludar {
+        padding: 10px;
+        background-color: yellow;
+    }
+</style>
 
 <body>
-    <button type="button" onclick="mostrarAlerta()">Saludar</button>
+    <div class="boton-container">
+        <button class="boton-saludar" onclick="mostrarAlerta()">Saludar</button>
+    </div>
 </body>
-<script>
+<!-- <script>
     function mostrarAlerta() {
         alert('Hola!');
     }
-</script>
+</script> -->
+<script src="eventos.js"></script>
 
 </html>
